@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Prueba_1 : MonoBehaviour
 {
-    [SerializeField] private GameObject Puerta;
+    [SerializeField] private Animator PuertaAnimator;
 
     public bool Prueba1_Supreada;
     private void OnTriggerEnter(Collider other)
@@ -12,6 +12,7 @@ public class Prueba_1 : MonoBehaviour
         if (other.gameObject.CompareTag("PiezaClave"))
         {
             Prueba1_Supreada= true;
+            PuertaAnimator.SetBool("Open", Prueba1_Supreada);
         }
     }
 }
