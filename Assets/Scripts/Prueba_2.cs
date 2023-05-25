@@ -32,31 +32,37 @@ public class Prueba_2 : MonoBehaviour
 
     public void PulsarNumero0()
     {
-        password = password + TextoBoton.text;
+        password = password + "0";
         PasswordText.text = password;
     }
 
     public void PulsarNumero1()
     {
-        password = password + TextoBoton.text;
+        password = password + "1";
         PasswordText.text = password;
     }
 
     public void PulsarNumero2()
     {
-        password = password + TextoBoton.text;
+        password = password + "2";
         PasswordText.text = password;
     }
 
     public void PulsarNumero3()
     {
-        password = password + TextoBoton.text;
+        password = password + "3";
         PasswordText.text = password;
     }
 
     public void PulsarNumero4()
     {
-        password = password + TextoBoton.text;
+        password = password + "4";
+        PasswordText.text = password;
+    }
+    
+    public void PulsarNumero5()
+    {
+        password = password + "5";
         PasswordText.text = password;
     }
 }
