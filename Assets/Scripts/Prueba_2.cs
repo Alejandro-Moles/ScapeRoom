@@ -12,10 +12,11 @@ public class Prueba_2 : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (password == CorrectPassword)
         {
             animator.SetBool("Open", true);
-        }
+        }*/
     }
 
     public void IntentarPassword()
@@ -27,6 +28,7 @@ public class Prueba_2 : MonoBehaviour
         else
         {
             PasswordText.text = "";
+            password = "";
         }
     }
 
